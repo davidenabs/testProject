@@ -219,10 +219,40 @@
 #     print(myList[i])
 
 # 
-kks
 
+# def countdown(n):
+#     print(n)
+#     if n == 0:
+#         return             # Terminate recursion
+#     else:
+#         countdown(n - 1)   # Recursive call
+#
+#
+# countdown(5)
 
+# File Handling
+# r ,a , w, x
+# openFile = open("C:\\Users\\USER\Documents\pythonTask4.txt", 'r')
+# # print(openFile.readline())
+# for line in openFile:
+#     print(line)
+# openFile.close()
+# x = input()
+# file = open('thisfiledoesnotexist.txt', 'a')
+# file.write('\nJust wrote this now!')
+# file.close()
+#
+# file = open('demo.txt', 'r')
+# print(file.read())
+# file = open('thisfiledoesnotexist.txt', 'x')
+import os
 
+# os.remove('thisfiledoesnotexist.txt')
 
+if os.path.exists("thisfiledoesnotexist.txt"):
+  os.remove("thisfiledoesnotexist.txt")
+  print('file removed')
+else:
+  print("The file does not exist")
 
-
+  os.rmdir('test')
