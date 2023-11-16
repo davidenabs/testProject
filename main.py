@@ -245,14 +245,57 @@
 # file = open('demo.txt', 'r')
 # print(file.read())
 # file = open('thisfiledoesnotexist.txt', 'x')
-import os
+# import os
+#
+# # os.remove('thisfiledoesnotexist.txt')
+#
+# if os.path.exists("thisfiledoesnotexist.txt"):
+#   os.remove("thisfiledoesnotexist.txt")
+#   print('file removed')
+# else:
+#   print("The file does not exist")
+#
+#   os.rmdir('test')
 
-# os.remove('thisfiledoesnotexist.txt')
 
-if os.path.exists("thisfiledoesnotexist.txt"):
-  os.remove("thisfiledoesnotexist.txt")
-  print('file removed')
-else:
-  print("The file does not exist")
+# Error Handling
 
-  os.rmdir('test')
+# print(x)
+# try:
+#   print(x)
+# except IndentationError:
+#   print("An exception occurred")
+
+# try:
+#   print("Hello")
+# except:
+#   print("Something went wrong")
+# else:
+#   print("Nothing went wrong")
+
+# try:
+#   print(x)
+# except:
+#   print("Something went wrong")
+# finally:
+#   print("The 'try except' is finished")
+
+# print(x)
+
+# x = -1
+# if x < 0:
+#   raise Exception("Sorry, no numbers below zero")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
